@@ -1,0 +1,186 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+  background:#fff;
+  color: #374650;
+  font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6,.btn{
+  font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+  background-color: #fff;
+  height: 100%;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+/*resonsive img fix*/
+.img-responsive{
+  width:100%;
+}
+
+/*Buttons*/
+
+.btn{
+  display: inline-block;
+  padding: 14px 27px 14px 29px;
+  color: #222;
+  white-space: nowrap;
+  border-radius: 4px;
+  border:none;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-duration: .1s;
+  -webkit-transition-timing-function: cubic-bezier(.694, .0482, .335, 1);
+  -moz-transition-property: color, background-color;
+  -moz-transition-duration: .1s;
+  -moz-transition-timing-function: cubic-bezier(.694, .0482, .335, 1);
+  -ms-transition-property: color, background-color;
+  -ms-transition-duration: .1s;
+  -ms-transition-timing-function: cubic-bezier(.694, .0482, .335, 1);
+  -o-transition-property: color, background-color;
+  -o-transition-duration: .1s;
+  -o-transition-timing-function: cubic-bezier(.694, .0482, .335, 1);
+  transition-property: color, background-color;
+  transition-duration: .1s;
+  transition-timing-function: cubic-bezier(.694, .0482, .335, 1);
+  font-size: 14px;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.btn:hover{
+  background: #e5e5e5;
+}
+
+.btn.dark{
+  background:#222;
+  color:#fff;
+}
+
+.btn.dark:hover{
+  background:#444;
+}
+
+/*FORMS*/
+
+.form-control{
+  box-shadow: 0 0 0px 1px #E0E0E0 inset;
+  border-color: #E0E0E0;
+}
+
+/*Default Forms*/
+textarea, textarea.form-control,input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  box-shadow: 0 0 0px 1px #E0E0E0 inset;
+  border-radius: 2px;
+  padding: 9px 9px;
+  border-color: #E0E0E0;
+  color:#555;
+}
+
+/*Forms active*/
+textarea:focus, textarea:active, input[type="text"]:focus, input[type="text"]:active, input[type="password"]:focus, input[type="password"]:active, input[type="datetime"]:focus, input[type="datetime"]:active, input[type="datetime-local"]:focus, input[type="datetime-local"]:active, input[type="date"]:focus, input[type="date"]:active, input[type="month"]:focus, input[type="month"]:active, input[type="time"]:focus, input[type="time"]:active, input[type="week"]:focus, input[type="week"]:active, input[type="number"]:focus, input[type="number"]:active, input[type="email"]:focus, input[type="email"]:active, input[type="url"]:focus, input[type="url"]:active, input[type="search"]:focus, input[type="search"]:active, input[type="tel"]:focus, input[type="tel"]:active, input[type="color"]:focus, input[type="color"]:active, .uneditable-input:focus, .uneditable-input:active {
+  box-shadow: 0 0 0px 1px rgba(82,168,236,0.8) inset !important;
+  border-color: rgba(82,168,236,0.8);
+  outline: 0;
+}
+
+/*ICONS*/
+
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 6em;
+  height: 6em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fa-stack-2x {
+  font-size: 6em;
+}
+
+.fa-icon{
+  font-size:3em;
+  line-height:2em;
+}
+
+
+
+/*LAYOUT*/
+
+/*Section*/
+
+.section{
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+.section.alt{
+  background: #E6EDF2;
+}
+
+/*Hero*/
+
+.hero{
+  position: relative;
+  padding-top: 230px;
+  padding-bottom: 150px;
+  text-align: center;
+  margin-bottom:40px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:70px;
+  text-transform: uppercase;
+}
+
+.hero p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.cta{
+  padding:40px 0;
+  border: 1px solid #ddd;
+}
+
+.hero.pricing{
+ background: url(../img/pricing.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero.home{
+  height:100%;
+  min-height:100%;
+  background: url(../img/home.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
