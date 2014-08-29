@@ -169,10 +169,10 @@ textarea:focus, textarea:active, input[type="text"]:focus, input[type="text"]:ac
 
 .hero.pricing{
  background: url(../img/pricing.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 
 .hero.home{
